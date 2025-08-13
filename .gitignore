@@ -5,3 +5,10 @@ artifacts/
 env/
 *.docx
 ~$*
+models/
+artifacts/
+mlruns/
+*.py[cod]
+*$py.class
+*.log
+.vscode/

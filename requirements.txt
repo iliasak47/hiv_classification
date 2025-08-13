@@ -6,3 +6,5 @@ scikit-learn
 matplotlib
 seaborn
 pyspark
+mlflow
+torch

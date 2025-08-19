@@ -145,3 +145,4 @@ with mlflow.start_run():
     # Save model & threshold
     torch.save(model.state_dict(), os.path.join(MODEL_DIR, "pytorch_mlp.pt"))
     mlflow.pytorch.log_model(model, "pytorch_mlp")
+    torch.save(model, os.path.join(MODEL_DIR, "pytorch_mlp_full.pt"))

@@ -12,3 +12,4 @@ mlruns/
 *$py.class
 *.log
 .vscode/
+predictions/
